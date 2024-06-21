@@ -8,6 +8,7 @@ import MyDay from "./pages/MyDay";
 import Tasks from "./pages/Tasks";
 import AppLayout from "./Layout/AppLayout";
 import Login from "./pages/Login";
+import Planned from "./pages/Planned";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="myday" element={<MyDay />} />
             <Route path="important" element={<Important />} />
             <Route path="assigned" element={<Assigned />} />
+            <Route path="planned" element={<Planned />} />
             <Route path="completed" element={<Completed />} />
             <Route path="all" element={<All />} />
             <Route path="tasks" element={<Tasks />} />
